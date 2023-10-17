@@ -29,19 +29,17 @@ public class Main {
         myDonuts[4] = d5;
         myDonuts[5] = d6;
 
+        float totalPrice = 0;
+
+        System.out.println("Printing out Donut attributes by looping through array \n");
+
         for (Donut donut : myDonuts) {
             System.out.println(donut + "\n");
+            totalPrice += donut.price;
         }
 
-        // totalPrice(myDonuts);
+        System.out.println("Total price of donuts is " + totalPrice);
     }
-
-    /*
-    public static float totalPrice(Donut[] d) {
-        for (Donut d)
-        return;
-    }
-     */
 }
 
 /** Project prompt
